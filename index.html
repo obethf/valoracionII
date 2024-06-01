@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.frame {
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.frame-a {
+    background-color: #9999cc;
+    flex: 1;
+}
+
+.bottom-frames {
+    display: flex;
+    flex: 1;
+}
+
+.frame-b {
+    background-color: #d2b48c;
+    flex: 1;
+}
+
+.frame-c {
+    background-color: #ffffcc;
+    flex: 2;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValoracionII</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="frame frame-a">
+            Frame A
+            <div class="content">
+                <a href="foto.html" target="_blank">FOTO</a>
+            </div>
+        </div>
+        <div class="bottom-frames">
+            <div class="frame frame-b">
+                Frame B
+                <div class="content">
+                    <a href="https://blog.hubspot.es/website/diseno-web" target="_blank">PAGINA DE PREFERENCIA</a>
+                </div>
+            </div>
+            <div class="frame frame-c">
+                Frame C
+                <div class="content">
+                    <a href="formulario.html" target="_blank">FORMULARIO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
